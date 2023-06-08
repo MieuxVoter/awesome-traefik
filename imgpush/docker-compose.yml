@@ -13,7 +13,7 @@ services:
       MAX_UPLOADS_PER_DAY: 100
       MAX_UPLOADS_PER_HOUR: 100
       MAX_UPLOADS_PER_MINUTE: 10
-      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-"['*']"}
+        # ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-"['*']"}
       VALID_SIZES: ${VALID_SIZES:-"[100,200,300]"}
       NAME_STRATEGY: "uuidv4"
     healthcheck:
